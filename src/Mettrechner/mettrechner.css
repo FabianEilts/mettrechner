@@ -1,0 +1,18 @@
+#modalBody input{
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.modal-title {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+table th, td{
+    text-align: center;
+}
+#newEntryBtn{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 1rem;
+}
