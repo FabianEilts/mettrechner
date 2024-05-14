@@ -39,7 +39,7 @@ export function EntryModal({ addEntry }) {
               <label htmlFor="name" className="form-label">Name</label><br/>
               <input id="name" className="form-control" type="text" value={name} onChange={(event => setName(event.target.value))}></input><br/>
               <label htmlFor="count" className="form-label">Anzahl Brötchen</label><br/>
-              <input id="count" value={amount} className="form-control" type="number" onChange={(event) => setAmount(parseInt(event.target.value))}></input><br/>
+              <input id="count" className="form-control" type="number" onChange={(event) => setAmount(parseInt(event.target.value))}></input><br/>
               <input id="noButter" className="form-check-input" type="checkbox" checked={noButter} onChange={handleNoButterChange}></input>
               <label htmlFor="noButter" className="form-label">Keine Butter</label>
             </ModalBody>
